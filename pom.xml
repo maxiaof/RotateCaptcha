@@ -6,7 +6,7 @@
 
     <groupId>com.maxiaofa.captcha</groupId>
     <artifactId>rotate-captcha</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>RotateCaptcha</name>
     <description>RotateCaptcha 旋转验证码</description>
     <url>https://github.com/maxiaof/RotateCaptcha</url>

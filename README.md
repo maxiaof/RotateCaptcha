@@ -11,7 +11,7 @@ RotateCaptcha 是一个生成旋转后图像验证码小插件
 <dependency>
     <groupId>com.maxiaofa.captcha</groupId>
     <artifactId>rotate-captcha</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
@@ -24,7 +24,7 @@ public RotateCaptcha getRotateCaptchaBean() {
     properties.setProperty(Constants.CAPTCHA_ROTATION_FAULT,"20");
     properties.setProperty(Constants.CAPTCHA_ROTATION_ANGLE_MIN,"50");
     properties.setProperty(Constants.CAPTCHA_ROTATION_ANGLE_MAN,"300");
-    properties.setProperty(Constants.CAPTCHA_ROTATION_ANGLE,"10");
+    properties.setProperty(Constants.CAPTCHA_ROTATION_ANGLE_OFFSET,"10");
     Config config = new Config(properties);
     rotateCaptcha.setConfig(config);
     return rotateCaptcha;
